@@ -5,11 +5,11 @@
 
 class Person {
   constructor (
-    public name: string,
+    public name: string = 'Default',
     private phone: string,
     protected address: string,
     protected readonly type: number,
-    /* public */ readonly alive: boolean
+    /* public */ readonly alive: boolean = true
   ) {}
 }
 
