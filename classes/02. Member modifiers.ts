@@ -25,7 +25,7 @@ console.log(lily.index); // Error: Property 'index' is private
 
 class Child2 extends Person {
   /* Override modifier */
-  public echo (message: string) {
+  public sleep (message: string) {
     console.log(this.name); // Access public property
     console.log(this.phone); // Access protected property
     super.echo(message);
