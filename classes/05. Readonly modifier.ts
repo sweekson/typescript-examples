@@ -6,7 +6,7 @@
  */
 
 class Square1 {
-  public readonly width: number;
+  public readonly width: number = 100;
   constructor(width: number) {
     this.width = width * 10;
   }
