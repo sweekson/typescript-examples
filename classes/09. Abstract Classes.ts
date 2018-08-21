@@ -26,9 +26,3 @@ class Developer2 extends Employee {
 class Engineer extends Employee {
   protected sleep() {}
 }
-
-// Error: Property 'work' is protected in type 'Desinger' but public in type 'Employee'.
-class Desinger extends Employee {
-  protected work(): void {}
-  protected sleep() {}
-}
